@@ -66,10 +66,10 @@ if (params.targetWidth || params.targetHeight) {
     transform = new ActionDescriptor();
 
     if (params.targetWidth) {
-        transform.putDouble(stringIDToTypeID("targetWidth"), params.targetWidth)
+        transform.putDouble(stringIDToTypeID("targetWidth"), params.targetWidth);
     }
     if (params.targetHeight) {
-            transform.putDouble(stringIDToTypeID("targetHeight"), params.targetHeight)
+        transform.putDouble(stringIDToTypeID("targetHeight"), params.targetHeight);
     }
     // The part of the document to use
 
